@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8226-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/lge/msm8226-common/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/lge/msm8226-common/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
+    vendor/lge/msm8226-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/lge/msm8226-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/msm8226-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/msm8226-common/proprietary/bin/radish:system/bin/radish \
@@ -37,9 +38,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8226-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/msm8226-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lge/msm8226-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/lge/msm8226-common/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
-    vendor/lge/msm8226-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    vendor/lge/msm8226-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
+    vendor/lge/msm8226-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/lge/msm8226-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/lge/msm8226-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/lge/msm8226-common/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/lge/msm8226-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
@@ -67,7 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8226-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/lge/msm8226-common/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/msm8226-common/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
-    vendor/lge/msm8226-common/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/lge/msm8226-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/lge/msm8226-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/lge/msm8226-common/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \

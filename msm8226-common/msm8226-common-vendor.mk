@@ -17,13 +17,13 @@
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/lge/msm8226-common/overlay
 
-PRODUCT_PACKAGES += \
-    shutdownlistener
+#PRODUCT_PACKAGES += \
+#    shutdownlistener
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
     libTimeService \
-    TimeService \
+#    TimeService \
     libscale \
     libmdmdetect \
     libperipheral_client \
